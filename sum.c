@@ -1,11 +1,9 @@
-#include <stdio.h>
-
-int sum() {
+int sum(int num) {
 	int i, sum=0;
 
-	for (i=1; i<=100; i++)
+	for (i=1; i<=num; i++)
 		sum += i;
 
-	printf("%d", sum);
+	return sum;
 
 }
